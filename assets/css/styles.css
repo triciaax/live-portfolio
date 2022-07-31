@@ -1,0 +1,17 @@
+.hero-header {
+    text-align: center;
+    font-size: 5em;
+    font-weight: 800;
+}
+
+.hero-subheader {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 200;
+    color: #B1C0B6;
+}
+
+.about {
+    margin: 40px;
+    padding: 100px;
+}
