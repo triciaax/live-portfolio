@@ -23,6 +23,7 @@ footer a {
     text-align: center;
     font-size: 5em;
     font-weight: 800;
+    padding-top: 200px;
 }
 
 .hero-subheader {
@@ -56,6 +57,8 @@ footer a {
     border-width: 5px;
     border-style: solid;
     border-color: white;
+    -webkit-filter: grayscale(35%); 
+    filter: grayscale(35%);
 }
 
 .intro-image img {
