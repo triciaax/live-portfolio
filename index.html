@@ -18,13 +18,24 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <script src="assets/js/javascript.js"></script>
   </head>
 
   <!--navigation-->
   <nav class="navbar navbar-expand-lg" style="background-color: #5e746c">
     <div class="container-fluid">
-      <a class="navbar-brand"><img src="assets/images/logo-2022july.png" style="height:65px"></a>
+      <a class="navbar-brand" href="index.html"
+        ><img
+          src="assets/images/logo-2022july.png"
+          alt="logo"
+          style="height: 65px"
+      /></a>
       <button
         class="navbar-toggler"
         type="button"
@@ -38,10 +49,16 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-link" href="./index.html#about" style="color: white">About</a>
-          <a class="nav-link" href="./resume.html" style="color: white">Resume</a>
+          <a class="nav-link" href="./index.html#about" style="color: white"
+            >About</a
+          >
+          <a class="nav-link" href="./resume.html" style="color: white"
+            >Resume</a
+          >
           <a class="nav-link" href="./work.html" style="color: white">Work</a>
-          <a class="nav-link disabled" style="color: white">Contact</a>
+          <a class="nav-link" href="./contact.html" style="color: white"
+            >Contact</a
+          >
         </div>
       </div>
     </div>
@@ -59,43 +76,52 @@
     <!--beginning of content-->
     <div class="body-content" id="about">
       <div class="section">
-        <div class="about-me-img">
-            <img src="assets/images/aboutme.jpg" style="width:120px"/>
-            <a href="https://github.com/triciaax">github</a>   <a href="https://www.linkedin.com/in/tricia-nghiem/">linkedin</a>   <a href="mailto:tricianghiem@gmail.com">email</a>
-        </div>
-         <div class="about">
-        Hello, my name is Tricia. I am a full stack developer and product strategist. I am currently a full stack development student at the University of Minnesota. I started my career in the email development world: coding emails, automating programs, personalizing content, and segmenting audience through databases. My experience in strategy development ranges from email, web, application, and mobile planning. I have launched successfully 200+ experiences across multiple platforms. The art and science in our technology has always been extremely facinating to me. From strategy creation to development to release, I love working all stages of product development. I also love collaborating, <i>feel free to reach out if you'd like to chat.</i>
-        </div>
-      </div>
-
-           <!--companys and resume-->
-      <div class="section-resume" id="resume">
         <div class="container text-center">
-            <div class="row">
-              <div class="col">
-                      <img src="assets/images/microsoft.png">
-                        <h5 class="card-title">Product Manager</h5>
-                      </div>
-                        <div class="col">
-                      <img src="assets/images/target_logo.png">
-                        <h5 class="card-title">Site Merchandiser</h5>
-                      </div>
-                        <div class="col">
-                      <img src="assets/images/bsb.png">
-                        <h5 class="card-title">Marketing Analyst 1 & 2</h5>
-                      </div>
-                    </div>
-                  </div>
-       
-      </div>
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="about-me-img">
+                <img
+                  src="assets/images/aboutme.jpg"
+                  alt="about"
+                  style="width: 190px"
+                />
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="about">
+                Hello, my name is Tricia. I am a full stack developer and
+                product strategist. I am currently a full stack development
+                student at the University of Minnesota. I started my career in
+                the email development world: coding emails, automating programs,
+                personalizing content, and segmenting audience through
+                databases. My experience in strategy development ranges from
+                email, web, application, and mobile planning. I have launched
+                successfully 200+ experiences across multiple platforms. The art
+                and science in our technology has always been extremely
+                facinating to me. From strategy creation to development to
+                release, I love working all stages of product development. I
+                also love collaborating,
+                <i>feel free to reach out if you'd like to chat.</i>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </body>
 
   <footer>
-    <p>&copy; 2022 by Tricia Nghiem<br>
-    <a href="mailto:tricianghiem@gmail.com">tricianghiem@gmail.com</a></p>
+    <p>
+      <a href="https://github.com/triciaax" alt="github">
+        <i class="fa fa-github" style="font-size: 36px"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/tricia-nghiem/" alt="linkedin">
+        <i class="fa fa-linkedin-square" style="font-size: 36px"></i>
+      </a>
+      <a href="mailto:tricianghiem@gmail.com">
+        <i class="fa fa-envelope" style="font-size: 36px"></i>
+      </a>
+      <br />&copy; 2022 by Tricia Nghiem
+    </p>
   </footer>
-
 </html>
